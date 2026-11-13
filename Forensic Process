@@ -1,35 +1,60 @@
-collection
-examination
-analysis
-reporting
-media -> data -> info -> evidence
+# Digital Forensics Process
 
-chain of custody is critical here
-docuement the way digital evidence has been handled
-when we secure, transport, verify items
+## Overview
 
-digital evidence:
-emails
-user accounts
-digital video, audio, photos
-Instant messages
-web browse history
-files
-RAM
-registry
-backups
-logs
+The digital forensics lifecycle moves data through four stages:
 
-collection
-	identify, label, record, acquire data 
-examinatiion
-	forensically sound ways to collect data
-	preserve integrity
-	document coc
-analysis
-	legally justifiable methods and techniques
-reporting
-	explained use of tools
-	description of nalysis of different data sources
-	issues and vulnerabilities identified
-	recommendations
+**Media → Data → Information → Evidence**
+
+1. **Collection**
+2. **Examination**
+3. **Analysis**
+4. **Reporting**
+
+---
+
+## Chain of Custody
+
+Chain of custody is critical. Document how digital evidence has been handled, including:
+
+- **Timestamp**
+- **Examiner**
+- **From → To** (storage or transfer)
+
+Record this whenever data is secured, transported, or verified.
+
+---
+
+## Types of Digital Evidence
+
+| Category | Examples |
+|---|---|
+| Communications | Emails, instant messages |
+| Accounts | User accounts |
+| Media | Digital video, audio, photos |
+| Browsing | Web browsing history |
+| Files | Documents, files |
+| Memory | RAM |
+| System | Registry, logs |
+| Backups | Backup archives |
+
+---
+
+## Stages in Detail
+
+### 1. Collection
+- Identify, label, record, and acquire data
+
+### 2. Examination
+- Use forensically sound methods to collect data
+- Preserve data integrity
+- Document chain of custody
+
+### 3. Analysis
+- Apply legally justifiable methods and techniques
+
+### 4. Reporting
+- Explain the use of tools
+- Describe the analysis of each data source
+- Identify issues and vulnerabilities
+- Provide recommendations
